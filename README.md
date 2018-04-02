@@ -4,7 +4,7 @@
 
 ## Versions
 
-Click [here](https://github.com/ChilliCream/react-rasta) to get to the version overview.
+Click [here](https://github.com/ChilliCream/react-rasta-docs) to get to the version overview.
 
 ## Source Code
 
