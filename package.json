@@ -1,0 +1,12 @@
+{
+  "name": "react-rasta-docs",
+  "version": "1.0.0",
+  "description": "The React Rasta Documentation",
+  "maintainers": ["Rafael Staib"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ChilliCream/react-rasta-docs"
+  },
+  "author": "ChilliCream",
+  "license": "MIT"
+}
