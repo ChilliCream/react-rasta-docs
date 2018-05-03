@@ -1,19 +1,4 @@
-# React Rasta 1.0
+# React Rasta Documentation
 
-**The home for _React Rasta_ documentation.**
-
-## Versions
-
-Click [here](https://github.com/ChilliCream/react-rasta-docs) to get to the version overview.
-
-## Source Code
-
-The source code is maintained [here](https://github.com/ChilliCream/react-rasta).
-
-## Topics
-
-| Topic                                     | Description                        |
-| ----------------------------------------- | ---------------------------------- |
-| [Getting Started](docs/GettingStarted.md) | A quickstart guide                 |
-| [Container](docs/Container.md)            | Explains the `Container` component |
-| [Types](docs/Types.md)                    | About `Types`                      |
+[![license](https://img.shields.io/github/license/ChilliCream/react-rasta-docs.svg)](https://github.com/ChilliCream/react-rasta-docs/blob/master/LICENSE)
+[![build](https://img.shields.io/circleci/project/github/ChilliCream/react-rasta-docs.svg)](https://circleci.com/gh/ChilliCream/react-rasta-docs/tree/master)
