@@ -14,7 +14,7 @@ const siteConfig = {
   cname: "react-rasta.com",
   baseUrl: "/",
   gaTrackingId: "UA-72800164-2",
-  projectName: "react-rasta-website",
+  projectName: "react-rasta-docs",
   organizationName: "chillicream",
   repoUrl: "https://github.com/ChilliCream/react-rasta",
   headerLinks: [
