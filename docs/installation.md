@@ -1,4 +1,7 @@
-# Getting Started
+---
+id: installation
+title: Installation
+---
 
 Here you will find what is needed to get started.
 

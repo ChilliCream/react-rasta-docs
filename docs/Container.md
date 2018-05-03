@@ -1,4 +1,7 @@
-# Container
+---
+id: container
+title: Container
+---
 
 The `Container` is the most outer `Component` in the grid system. A `Container` should only contain
 `Row` components to avoid appearance issues. Below you will see a little code example to get an idea
