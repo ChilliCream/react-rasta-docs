@@ -50,9 +50,9 @@ const SplashContainer = props => (
   </div>
 );
 
-const Banner = props => (
-  <div className="section banner">
-    <img src={props.img_src} width="60%" />
+const Logo = props => (
+  <div className="section logo">
+    <img src={props.img_src} />
   </div>
 );
 
@@ -77,7 +77,8 @@ class HomeSplash extends React.Component {
     return (
       <SplashContainer>
         <div className="inner">
-          <Banner img_src={imgUrl("banner.svg")} />
+          <Logo img_src={imgUrl("signet.svg")} />
+          <ProjectTitle />
           <PromoSection>
             <Button href={docUrl("installation.html", language)}>
               Getting Started

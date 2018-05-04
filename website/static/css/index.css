@@ -1,0 +1,28 @@
+.homeContainer {
+  background: #29303a;
+}
+
+.homeContainer .section.logo {
+  margin-bottom: 4%;
+}
+
+.homeContainer .section.logo > img {
+  width: 15%;
+}
+
+.homeContainer .projectTitle {
+  color: #fff;
+}
+
+.pluginWrapper.buttonWrapper > .button {
+  background: #0099cc;
+  border: 0 none;
+  color: #29303a;
+  font-size: 18px;
+  margin: 13px;
+  text-transform: none;
+}
+
+.pluginWrapper.buttonWrapper > .button:hover {
+  color: #fff;
+}

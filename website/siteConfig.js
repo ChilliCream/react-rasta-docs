@@ -9,7 +9,7 @@
 
 const siteConfig = {
   title: "React Rasta",
-  tagline: "A grid system for React",
+  tagline: "A powerful React grid system to bend your layout",
   url: "http://react-rasta.com",
   cname: "react-rasta.com",
   baseUrl: "/",
