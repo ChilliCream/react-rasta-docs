@@ -3,13 +3,18 @@
   "localized-strings": {
     "next": "Next",
     "previous": "Previous",
-    "tagline": "A grid system for React",
+    "tagline": "A powerful React grid system to bend your layout",
+    "break": "Break",
+    "column": "Column",
     "container": "Container",
     "installation": "Installation",
+    "row": "Row",
+    "theme-provider": "ThemeProvider",
     "Docs": "Docs",
     "Blog": "Blog",
     "Usage": "Usage",
-    "API": "API"
+    "Components": "Components",
+    "Types": "Types"
   },
   "pages-strings": {
     "Help Translate|recruit community translators for your project": "Help Translate",
