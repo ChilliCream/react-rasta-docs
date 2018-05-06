@@ -19,11 +19,17 @@ function imgUrl(img) {
 }
 
 function docUrl(doc, language) {
-  return siteConfig.baseUrl + "docs/" + (language ? language + "/" : "") + doc;
+  return (
+    siteConfig.baseUrl +
+    "docs/" +
+    (language ? language + "/" : "") +
+    doc +
+    ".html"
+  );
 }
 
 function pageUrl(page, language) {
-  return siteConfig.baseUrl + (language ? language + "/" : "") + page;
+  return siteConfig.baseUrl + (language ? language + "/" : "") + page + ".html";
 }
 
 class Button extends React.Component {
@@ -80,7 +86,7 @@ class HomeSplash extends React.Component {
           <Logo img_src={imgUrl("signet.svg")} />
           <ProjectTitle />
           <PromoSection>
-            <Button href={docUrl("installation.html", language)}>
+            <Button href={docUrl("installation", language)}>
               Getting Started
             </Button>
           </PromoSection>
@@ -101,19 +107,16 @@ const Block = props => (
 );
 
 const Features = props => (
-  <Block layout="fourColumn">
+  <Block layout="threeColumn" background="dark">
     {[
       {
-        content: "This is the content of my feature",
-        image: imgUrl("docusaurus.svg"),
-        imageAlign: "top",
-        title: "Feature One"
+        content: "Works with CSS Flexbox underneath",
+        image: imgUrl("css3.svg"),
+        title: "CSS Flexbox"
       },
       {
-        content: "The content of my second feature",
-        image: imgUrl("docusaurus.svg"),
-        imageAlign: "top",
-        title: "Feature Two"
+        content: "Keeps the complexity away from your daily work",
+        title: "Simplicity"
       }
     ]}
   </Block>
@@ -126,15 +129,12 @@ class Index extends React.Component {
     return (
       <div>
         <HomeSplash language={language} />
+        <div className="mainContainer">
+          <Features />
+        </div>
       </div>
     );
   }
 }
-
-/*
-        <div className="mainContainer">
-          <Features />
-        </div>
-*/
 
 module.exports = Index;

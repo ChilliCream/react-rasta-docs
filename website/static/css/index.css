@@ -26,3 +26,8 @@
 .pluginWrapper.buttonWrapper > .button:hover {
   color: #fff;
 }
+
+.mainContainer .darkBackground h2 p {
+  /*color: #fbae18;*/
+  font-size: 30px;
+}
