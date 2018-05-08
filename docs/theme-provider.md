@@ -94,16 +94,28 @@ Please see the following examples.
 
 All properties are optional.
 
-| Name    | Type    | Description             |
-| ------- | ------- | ----------------------- |
-| `theme` | `Theme` | Gets or sets the theme. |
+### theme
 
-## Theme
+Specifies the theme which should be applied.
 
-All properties are optional.
+* Type: `Theme`
+* Default:
 
-| Name             | Type                       | Description |
-| ---------------- | -------------------------- | ----------- |
-| `breakpoints`    | `BreakpointMap`            |             |
-| `containerWidth` | `BreakpointValues<number>` |             |
-| `gutterWidth`    | `number`                   |             |
+```json
+{
+  breakpoints: {
+    xs: 0,
+    sm: 576,
+    md: 768,
+    lg: 992,
+    xl: 1200
+  },
+  containerWidth: {
+    sm: 540,
+    md: 720,
+    lg: 960,
+    xl: 1140
+  },
+  gutterWidth: 30
+}
+```
