@@ -3,6 +3,7 @@
 }
 
 .homeContainer .section.logo {
+  display: inline-block !important;
   margin-bottom: 4%;
 }
 

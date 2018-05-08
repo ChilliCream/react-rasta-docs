@@ -7,6 +7,7 @@
     "break": "Break",
     "column": "Column",
     "container": "Container",
+    "dependencies": "Dependencies",
     "installation": "Installation",
     "row": "Row",
     "theme-provider": "ThemeProvider",
