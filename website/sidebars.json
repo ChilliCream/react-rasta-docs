@@ -1,6 +1,6 @@
 {
   "docs": {
-    "Usage": ["installation"],
+    "Usage": ["installation", "dependencies"],
     "Components": ["break", "column", "container", "row", "theme-provider"],
     "Types": []
   }

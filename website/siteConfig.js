@@ -29,6 +29,7 @@ const siteConfig = {
     secondaryColor: "#363f4c"
   },
   copyright: "Copyright © " + new Date().getFullYear() + " ChilliCream",
+  editUrl: "https://github.com/ChilliCream/react-rasta-docs/edit/master/docs/",
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks
     theme: "androidstudio"

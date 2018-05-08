@@ -3,9 +3,9 @@ id: break
 title: Break
 ---
 
-The `Break` component will split `Column` components inside the `Row` into new rows even if the
-`Column` components do not exceed in size. A `Break` component should not have any children. Also
-a `Break` component has no properties at all. Below you will see how it works.
+A `Break` forces `Column`s inside a `Row` to split into new rows even if the `Column`s do not
+exceed in size. A `Break` should not contain any children and has no properties at all.
+Below you will see how it works.
 
 ```html
 <Container>
@@ -19,7 +19,12 @@ a `Break` component has no properties at all. Below you will see how it works.
 
 The example above will translate into the following.
 
-```txt
-|Top------|---------------------------|
-|Bottom---|---------------------------|
-```
+<div class="example">
+  <div class="container">
+    <div class="row">
+      <div class="column-3">Top</div>
+      <div class="break"></div>
+      <div class="column-3">Bottom</div>
+    </div>
+  </div>
+</div>
