@@ -7,19 +7,23 @@
 
 // See https://docusaurus.io/docs/site-config.html for all the possible
 
+const repoUrl = "https://github.com/ChilliCream/react-rasta";
+
 const siteConfig = {
   title: "React Rasta",
-  tagline: "A powerful React grid system to bend your layout",
+  tagline: "The most powerful and flexible grid system for React",
   url: "http://react-rasta.com",
   cname: "react-rasta.com",
   baseUrl: "/",
   gaTrackingId: "UA-72800164-2",
   projectName: "react-rasta-docs",
   organizationName: "chillicream",
-  repoUrl: "https://github.com/ChilliCream/react-rasta",
+  repoUrl,
   headerLinks: [
     { doc: "installation", label: "Docs" },
-    { blog: true, label: "Blog" }
+    { blog: true, label: "Blog" },
+    { search: true },
+    { href: repoUrl, label: "GitHub" }
   ],
   headerIcon: "img/signet.svg",
   footerIcon: "img/signet.svg",
@@ -30,6 +34,11 @@ const siteConfig = {
   },
   copyright: "Copyright © " + new Date().getFullYear() + " ChilliCream",
   editUrl: "https://github.com/ChilliCream/react-rasta-docs/edit/master/docs/",
+  algolia: {
+    apiKey: "bf33c17016c2932f4993e27c5d3aba72",
+    indexName: "prod_website",
+    algoliaOptions: {}
+  },
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks
     theme: "androidstudio"
