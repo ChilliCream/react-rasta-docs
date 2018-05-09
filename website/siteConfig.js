@@ -17,9 +17,17 @@ const siteConfig = {
   projectName: "react-rasta-docs",
   organizationName: "chillicream",
   repoUrl: "https://github.com/ChilliCream/react-rasta",
-  headerLinks: [
-    { doc: "installation", label: "Docs" },
-    { blog: true, label: "Blog" }
+  headerLinks: [{
+      doc: "installation",
+      label: "Docs"
+    },
+    {
+      blog: true,
+      label: "Blog"
+    },
+    {
+      search: true
+    }
   ],
   headerIcon: "img/signet.svg",
   footerIcon: "img/signet.svg",
@@ -30,6 +38,11 @@ const siteConfig = {
   },
   copyright: "Copyright © " + new Date().getFullYear() + " ChilliCream",
   editUrl: "https://github.com/ChilliCream/react-rasta-docs/edit/master/docs/",
+  algolia: {
+    apiKey: "bf33c17016c2932f4993e27c5d3aba72",
+    indexName: "prod_website",
+    algoliaOptions: {}
+  },
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks
     theme: "androidstudio"
