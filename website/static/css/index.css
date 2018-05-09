@@ -11,6 +11,18 @@
   width: 15%;
 }
 
+@media(min-width: 480px) {
+  .homeContainer .section.logo > img {
+    width: 25%;
+  }
+}
+
+@media(min-width: 736px) {
+  .homeContainer .section.logo > img {
+    width: 40%;
+  }
+}
+
 .homeContainer .projectTitle {
   color: #fff;
 }

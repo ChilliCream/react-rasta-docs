@@ -3,7 +3,7 @@
   "localized-strings": {
     "next": "Next",
     "previous": "Previous",
-    "tagline": "A powerful React grid system to bend your layout",
+    "tagline": "The most powerful and flexible grid system for React",
     "break": "Break",
     "column": "Column",
     "container": "Container",
@@ -13,6 +13,7 @@
     "theme-provider": "ThemeProvider",
     "Docs": "Docs",
     "Blog": "Blog",
+    "GitHub": "GitHub",
     "Usage": "Usage",
     "Components": "Components",
     "Types": "Types"

@@ -129,12 +129,15 @@ class Index extends React.Component {
     return (
       <div>
         <HomeSplash language={language} />
-        <div className="mainContainer">
-          <Features />
-        </div>
       </div>
     );
   }
 }
+
+/*
+        <div className="mainContainer">
+          <Features />
+        </div>
+*/
 
 module.exports = Index;

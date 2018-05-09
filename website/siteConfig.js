@@ -7,27 +7,23 @@
 
 // See https://docusaurus.io/docs/site-config.html for all the possible
 
+const repoUrl = "https://github.com/ChilliCream/react-rasta";
+
 const siteConfig = {
   title: "React Rasta",
-  tagline: "A powerful React grid system to bend your layout",
+  tagline: "The most powerful and flexible grid system for React",
   url: "http://react-rasta.com",
   cname: "react-rasta.com",
   baseUrl: "/",
   gaTrackingId: "UA-72800164-2",
   projectName: "react-rasta-docs",
   organizationName: "chillicream",
-  repoUrl: "https://github.com/ChilliCream/react-rasta",
-  headerLinks: [{
-      doc: "installation",
-      label: "Docs"
-    },
-    {
-      blog: true,
-      label: "Blog"
-    },
-    {
-      search: true
-    }
+  repoUrl,
+  headerLinks: [
+    { doc: "installation", label: "Docs" },
+    { blog: true, label: "Blog" },
+    { search: true },
+    { href: repoUrl, label: "GitHub" }
   ],
   headerIcon: "img/signet.svg",
   footerIcon: "img/signet.svg",
