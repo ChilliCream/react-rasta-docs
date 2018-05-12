@@ -36,8 +36,7 @@ const siteConfig = {
   editUrl: "https://github.com/ChilliCream/react-rasta-docs/edit/master/docs/",
   algolia: {
     apiKey: "bf33c17016c2932f4993e27c5d3aba72",
-    indexName: "prod_website",
-    algoliaOptions: {}
+    indexName: "react-rasta"
   },
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks
