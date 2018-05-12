@@ -15,14 +15,16 @@
         </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/ChilliCream/react-rasta-docs/edit/master/docs/theme-provider.md" target="_blank" rel="noreferrer noopener">Edit</a><h1>ThemeProvider</h1></header><article><div><span><p>The <code>ThemeProvider</code> helps to change default settings for the whole grid system. For example if you
 do not like the way how breakpoints are configured you could create your own breakpoint map. The
 default berakpoint map is configured as the Bootstrap V4.1 grid system. Please see below.</p>
-<pre><code class="hljs css json">{
-  xs: 0, // from   0 to 575
-  sm: 576, // from   576 to 767
-  md: 768, // from  768 to 991
-  lg: 992, // from  992 to 1199
+<!-- prettier-ignore -->
+```json
+{
+  xs: 0,   // from 0 to 575
+  sm: 576, // from 576 to 767
+  md: 768, // from 768 to 991
+  lg: 992, // from 992 to 1199
   xl: 1200 // from 1200 to endless
 }
-</code></pre>
+```
 <p>The <code>ThemeProvider</code> can be nested but there a some warnings you should keep in mind to avoid
 appearance issues.</p>
 <ul>
@@ -114,8 +116,7 @@ appearance issues.</p>
               var search = docsearch({
                 
                 apiKey: 'bf33c17016c2932f4993e27c5d3aba72',
-                indexName: 'prod_website',
-                inputSelector: '#search_input_react',
-                algoliaOptions: {}
+                indexName: 'react-rasta',
+                inputSelector: '#search_input_react'
               });
             </script></body></html>
