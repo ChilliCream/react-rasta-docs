@@ -7,12 +7,13 @@ The `ThemeProvider` helps to change default settings for the whole grid system. 
 do not like the way how breakpoints are configured you could create your own breakpoint map. The
 default berakpoint map is configured as the Bootstrap V4.1 grid system. Please see below.
 
+<!-- prettier-ignore -->
 ```json
 {
-  xs: 0, // from   0 to 575
-  sm: 576, // from   576 to 767
-  md: 768, // from  768 to 991
-  lg: 992, // from  992 to 1199
+  xs: 0,   // from 0 to 575
+  sm: 576, // from 576 to 767
+  md: 768, // from 768 to 991
+  lg: 992, // from 992 to 1199
   xl: 1200 // from 1200 to endless
 }
 ```
