@@ -2,19 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://react-rasta.com/blog</id>
     <title>React Rasta Blog</title>
-    <updated>2018-05-03T06:00:00Z</updated>
+    <updated>2018-05-13T06:00:00Z</updated>
     <generator>Feed for Node.js</generator>
     <link rel="alternate" href="http://react-rasta.com/blog"/>
     <subtitle>The best place to stay up-to-date with the latest React Rasta news and events.</subtitle>
     <logo>http://react-rasta.com/img/signet.svg</logo>
     <rights>Copyright © 2018 ChilliCream</rights>
     <entry>
+        <title type="html"><![CDATA[Releasing version 1.0.1]]></title>
+        <id>http://react-rasta.com/blog/2018/05/13/1.0.1.html</id>
+        <link href="http://react-rasta.com/blog/2018/05/13/1.0.1.html">
+        </link>
+        <updated>2018-05-13T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p>Yeah, our first patch is on its way ;-)</p>
+]]></summary>
+        <author>
+            <name>Rafael Staib</name>
+            <uri>https://github.com/rstaib</uri>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Releasing version 1.0.0]]></title>
         <id>http://react-rasta.com/blog/2018/05/03/1.0.0.html</id>
         <link href="http://react-rasta.com/blog/2018/05/03/1.0.0.html">
         </link>
         <updated>2018-05-03T06:00:00Z</updated>
-        <summary type="html"><![CDATA[<p>Today we proudly release the first version of <em>React Rasta</em>.</p>
+        <summary type="html"><![CDATA[<p>Today we proudly released the first version of <em>React Rasta</em>.</p>
 ]]></summary>
         <author>
             <name>Rafael Staib</name>
