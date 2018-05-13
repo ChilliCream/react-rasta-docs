@@ -37,6 +37,9 @@ class Footer extends React.Component {
             <h5>Docs</h5>
             <a href={this.docUrl("installation")}>Usage</a>
             <a href={this.docUrl("break")}>Components</a>
+            <h5>Examples</h5>
+            <a href={this.docUrl("example-break")}>Break</a>
+            <a href={this.docUrl("example-column-auto")}>Column</a>
           </div>
           <div>
             <h5>Community</h5>

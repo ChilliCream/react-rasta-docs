@@ -1,11 +1,12 @@
 ---
-id: break
+id: example-break
 title: Break
 ---
 
 A `Break` forces `Column`s inside a `Row` to split into new rows even if the `Column`s do not
-exceed in size. A `Break` should not contain any children and has no properties at all.
-Below you will see how it works.
+exceed in size.
+
+## Code
 
 ```html
 <Container>
@@ -17,6 +18,6 @@ Below you will see how it works.
 </Container>
 ```
 
-The example above will translate into the following.
+## Preview
 
 <iframe src="https://codesandbox.io/embed/j22zqr1m95?hidenavigation=1&initialpath=%2Fbreak&view=preview" class="example" sandbox="allow-scripts allow-same-origin"></iframe>
