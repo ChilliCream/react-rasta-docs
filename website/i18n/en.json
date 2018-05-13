@@ -8,15 +8,20 @@
     "column": "Column",
     "container": "Container",
     "dependencies": "Dependencies",
+    "example-break": "Break",
+    "example-column-auto": "Auto Sized Columns",
     "installation": "Installation",
     "row": "Row",
     "theme-provider": "ThemeProvider",
     "Docs": "Docs",
+    "Examples": "Examples",
     "Blog": "Blog",
     "GitHub": "GitHub",
     "Usage": "Usage",
     "Components": "Components",
-    "Types": "Types"
+    "Types": "Types",
+    "Break": "Break",
+    "Column": "Column"
   },
   "pages-strings": {
     "Help Translate|recruit community translators for your project": "Help Translate",
