@@ -5,7 +5,7 @@ title: ThemeProvider
 
 The `ThemeProvider` helps to change default settings for the whole grid system. For example if you
 do not like the way how breakpoints are configured you could create your own breakpoint map. The
-default berakpoint map is configured as the Bootstrap V4.1 grid system. Please see below.
+default breakpoint map is configured as the Bootstrap V4.1 grid system. Please see below.
 
 ```json
 {
