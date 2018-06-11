@@ -34,8 +34,8 @@ Defines how the space between and around `Column`s inside a `Row` is distributed
 
 ```tsx
 <Container>
-  <Row>
-    <Column alignContent="flex-start" />
+  <Row alignContent="flex-start">
+    <Column />
   </Row>
 </Container>
 ```
@@ -44,8 +44,8 @@ Defines how the space between and around `Column`s inside a `Row` is distributed
 
 ```tsx
 <Container>
-  <Row>
-    <Column alignContent={{ xs: "space-around", md: "stretch" }} />
+  <Row alignContent={{ xs: "space-around", md: "stretch" }}>
+    <Column />
   </Row>
 </Container>
 ```
@@ -65,8 +65,8 @@ Defines how the space between and around `Column`s inside a `Row` is distributed
 
 ```tsx
 <Container>
-  <Row>
-    <Column alignItems="flex-start" />
+  <Row alignItems="flex-start">
+    <Column />
   </Row>
 </Container>
 ```
@@ -75,8 +75,8 @@ Defines how the space between and around `Column`s inside a `Row` is distributed
 
 ```tsx
 <Container>
-  <Row>
-    <Column alignItems={{ xs: "baseline", lg: "stretch" }} />
+  <Row alignItems={{ xs: "baseline", lg: "stretch" }}>
+    <Column />
   </Row>
 </Container>
 ```
@@ -95,8 +95,8 @@ Specifies how `Column`s are placed in a `Row`.
 
 ```tsx
 <Container>
-  <Row>
-    <Column direction="column-reverse" />
+  <Row direction="column-reverse">
+    <Column />
   </Row>
 </Container>
 ```
@@ -105,8 +105,8 @@ Specifies how `Column`s are placed in a `Row`.
 
 ```tsx
 <Container>
-  <Row>
-    <Column direction={{ xs: "row", xl: "row-reverse" }} />
+  <Row direction={{ xs: "row", xl: "row-reverse" }}>
+    <Column />
   </Row>
 </Container>
 ```
@@ -125,8 +125,8 @@ Defines how the space between and around `Column`s inside a `Row` is distributed
 
 ```tsx
 <Container>
-  <Row>
-    <Column justifyContent="center" />
+  <Row justifyContent="center">
+    <Column />
   </Row>
 </Container>
 ```
@@ -135,8 +135,8 @@ Defines how the space between and around `Column`s inside a `Row` is distributed
 
 ```tsx
 <Container>
-  <Row>
-    <Column justifyContent={{ sm: "flex-start", xl: "space-between" }} />
+  <Row justifyContent={{ sm: "flex-start", xl: "space-between" }}>
+    <Column />
   </Row>
 </Container>
 ```
@@ -155,8 +155,8 @@ Determines whether the gutter is disabled.
 
 ```tsx
 <Container>
-  <Row>
-    <Column noGutter="true" />
+  <Row noGutter="true">
+    <Column />
   </Row>
 </Container>
 ```
@@ -165,8 +165,8 @@ Determines whether the gutter is disabled.
 
 ```tsx
 <Container>
-  <Row>
-    <Column noGutter={{ sm: true, xl: false }} />
+  <Row noGutter={{ sm: true, xl: false }}>
+    <Column />
   </Row>
 </Container>
 ```
@@ -187,8 +187,8 @@ stacked.
 
 ```tsx
 <Container>
-  <Row>
-    <Column wrap="wrap-reverse" />
+  <Row wrap="wrap-reverse">
+    <Column />
   </Row>
 </Container>
 ```
@@ -197,8 +197,8 @@ stacked.
 
 ```tsx
 <Container>
-  <Row>
-    <Column wrap={{ sm: "wrap", md: "nowrap" }} />
+  <Row wrap={{ sm: "wrap", md: "nowrap" }}>
+    <Column />
   </Row>
 </Container>
 ```
