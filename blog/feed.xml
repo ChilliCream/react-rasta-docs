@@ -4,7 +4,7 @@
         <title>React Rasta Blog</title>
         <link>http://react-rasta.com/blog</link>
         <description>The best place to stay up-to-date with the latest React Rasta news and events.</description>
-        <lastBuildDate>Sun, 13 May 2018 06:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 11 Jun 2018 06:00:00 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -13,6 +13,14 @@
             <link>http://react-rasta.com/blog</link>
         </image>
         <copyright>Copyright © 2018 ChilliCream</copyright>
+        <item>
+            <title><![CDATA[Releasing version 1.0.2]]></title>
+            <link>http://react-rasta.com/blog/2018/06/11/1.0.2.html</link>
+            <guid>http://react-rasta.com/blog/2018/06/11/1.0.2.html</guid>
+            <pubDate>Mon, 11 Jun 2018 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>With this release we fixed an issue regarding the gutter width.</p>
+]]></description>
+        </item>
         <item>
             <title><![CDATA[Releasing version 1.0.1]]></title>
             <link>http://react-rasta.com/blog/2018/05/13/1.0.1.html</link>

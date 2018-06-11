@@ -2,12 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://react-rasta.com/blog</id>
     <title>React Rasta Blog</title>
-    <updated>2018-05-13T06:00:00Z</updated>
+    <updated>2018-06-11T06:00:00Z</updated>
     <generator>Feed for Node.js</generator>
     <link rel="alternate" href="http://react-rasta.com/blog"/>
     <subtitle>The best place to stay up-to-date with the latest React Rasta news and events.</subtitle>
     <logo>http://react-rasta.com/img/signet.svg</logo>
     <rights>Copyright © 2018 ChilliCream</rights>
+    <entry>
+        <title type="html"><![CDATA[Releasing version 1.0.2]]></title>
+        <id>http://react-rasta.com/blog/2018/06/11/1.0.2.html</id>
+        <link href="http://react-rasta.com/blog/2018/06/11/1.0.2.html">
+        </link>
+        <updated>2018-06-11T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p>With this release we fixed an issue regarding the gutter width.</p>
+]]></summary>
+        <author>
+            <name>Rafael Staib</name>
+            <uri>https://github.com/rstaib</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Releasing version 1.0.1]]></title>
         <id>http://react-rasta.com/blog/2018/05/13/1.0.1.html</id>
