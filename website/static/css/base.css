@@ -11,3 +11,14 @@ body {
 #footer {
   background: #363f4c;
 }
+
+@media screen and (min-width: 1024px) {
+  .navPusher> :first-child {
+    flex-grow: 0;
+  }
+
+  #footer {
+    flex-grow: 1;
+    flex-shrink: 0;
+  }
+}
