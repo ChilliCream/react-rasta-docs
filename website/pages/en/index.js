@@ -110,13 +110,19 @@ const Features = props => (
   <Block layout="threeColumn" background="dark">
     {[
       {
-        content: "Works with CSS Flexbox underneath",
         image: imgUrl("css3.svg"),
-        title: "CSS Flexbox"
+        imageAlign: "top",
+        title: "Costomizable Breakpoints"
       },
       {
-        content: "Keeps the complexity away from your daily work",
-        title: "Simplicity"
+        image: imgUrl("css3.svg"),
+        imageAlign: "top",
+        title: "Fullscreen Mode"
+      },
+      {
+        image: imgUrl("css3.svg"),
+        imageAlign: "top",
+        title: "No Gutter"
       }
     ]}
   </Block>
@@ -133,11 +139,5 @@ class Index extends React.Component {
     );
   }
 }
-
-/*
-        <div className="mainContainer">
-          <Features />
-        </div>
-*/
 
 module.exports = Index;
