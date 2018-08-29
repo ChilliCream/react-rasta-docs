@@ -22,6 +22,10 @@
                 var toggler = document.querySelector(togglerSelector);
                 var target = document.querySelector(targetSelector);
 
+                if (!toggler) {
+                  return;
+                }
+
                 toggler.onclick = function(event) {
                   event.preventDefault();
 
@@ -32,7 +36,7 @@
         </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/ChilliCream/react-rasta-docs/edit/master/docs/container.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 class="postHeaderTitle">Container</h1></header><article><div><span><p>A <code>Container</code> is the most outer component in the grid system. A <code>Container</code> should only contain
 <code>Row</code>s to avoid appearance issues. A <code>Container</code> contains one or more <code>Row</code>s. Below you will see a
 little code example to get an idea of how the grid system is structured.</p>
-<pre><code class="hljs css languages- html"><span class="hljs-tag">&lt;<span class="hljs-name">Container</span>&gt;</span>
+<pre><code class="hljs css language-html"><span class="hljs-tag">&lt;<span class="hljs-name">Container</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">Row</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">Column</span> /&gt;</span>
   <span class="hljs-tag">&lt;/<span class="hljs-name">Row</span>&gt;</span>
@@ -40,7 +44,7 @@ little code example to get an idea of how the grid system is structured.</p>
 </code></pre>
 <p>The <code>Container</code> is an optinal component within the grid system. This means the following example is
 valid as well.</p>
-<pre><code class="hljs css languages- html"><span class="hljs-tag">&lt;<span class="hljs-name">Row</span>&gt;</span>
+<pre><code class="hljs css language-html"><span class="hljs-tag">&lt;<span class="hljs-name">Row</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">Column</span> /&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">Row</span>&gt;</span>
 </code></pre>
@@ -55,7 +59,7 @@ no effect if <code>fullscreen</code> is set to <code>true</code>.</p>
 <li>Possible Values: <code>false</code> or <code>true</code></li>
 </ul>
 <p><strong>Example</strong></p>
-<pre><code class="hljs css languages- tsx"><span class="hljs-tag">&lt;<span class="hljs-name">Container</span> <span class="hljs-attr">fluid</span>=<span class="hljs-string">{true}</span>&gt;</span>
+<pre><code class="hljs css language-tsx"><span class="hljs-tag">&lt;<span class="hljs-name">Container</span> <span class="hljs-attr">fluid</span>=<span class="hljs-string">{true}</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">Row</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">Column</span> /&gt;</span>
   <span class="hljs-tag">&lt;/<span class="hljs-name">Row</span>&gt;</span>
@@ -69,7 +73,7 @@ no effect if <code>fullscreen</code> is set to <code>true</code>.</p>
 <li>Possible Values: <code>false</code> or <code>true</code></li>
 </ul>
 <p><strong>Example</strong></p>
-<pre><code class="hljs css languages- tsx"><span class="hljs-tag">&lt;<span class="hljs-name">Container</span> <span class="hljs-attr">fullscreen</span>=<span class="hljs-string">{true}</span>&gt;</span>
+<pre><code class="hljs css language-tsx"><span class="hljs-tag">&lt;<span class="hljs-name">Container</span> <span class="hljs-attr">fullscreen</span>=<span class="hljs-string">{true}</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">Row</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">Column</span> /&gt;</span>
   <span class="hljs-tag">&lt;/<span class="hljs-name">Row</span>&gt;</span>
@@ -84,7 +88,7 @@ consistency purposes. The <code>width</code> has no effect if <code>fluid</code>
 <li>Possible Values: e.g. <code>{ sm: 400, md: 600, lg: 800, xl: 1000 }</code></li>
 </ul>
 <p><strong>Example</strong></p>
-<pre><code class="hljs css languages- tsx"><span class="hljs-tag">&lt;<span class="hljs-name">Container</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{{</span> <span class="hljs-attr">sm:</span> <span class="hljs-attr">400</span>, <span class="hljs-attr">md:</span> <span class="hljs-attr">600</span>, <span class="hljs-attr">lg:</span> <span class="hljs-attr">800</span>, <span class="hljs-attr">xl:</span> <span class="hljs-attr">1000</span> }}&gt;</span>
+<pre><code class="hljs css language-tsx"><span class="hljs-tag">&lt;<span class="hljs-name">Container</span> <span class="hljs-attr">width</span>=<span class="hljs-string">{{</span> <span class="hljs-attr">sm:</span> <span class="hljs-attr">400</span>, <span class="hljs-attr">md:</span> <span class="hljs-attr">600</span>, <span class="hljs-attr">lg:</span> <span class="hljs-attr">800</span>, <span class="hljs-attr">xl:</span> <span class="hljs-attr">1000</span> }}&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">Row</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">Column</span> /&gt;</span>
   <span class="hljs-tag">&lt;/<span class="hljs-name">Row</span>&gt;</span>

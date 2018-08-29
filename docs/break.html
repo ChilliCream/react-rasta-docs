@@ -22,6 +22,10 @@
                 var toggler = document.querySelector(togglerSelector);
                 var target = document.querySelector(targetSelector);
 
+                if (!toggler) {
+                  return;
+                }
+
                 toggler.onclick = function(event) {
                   event.preventDefault();
 
@@ -32,7 +36,7 @@
         </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/ChilliCream/react-rasta-docs/edit/master/docs/break.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 class="postHeaderTitle">Break</h1></header><article><div><span><p>A <code>Break</code> forces <code>Column</code>s inside a <code>Row</code> to split into new rows even if the <code>Column</code>s do not
 exceed in size. A <code>Break</code> should not contain any children and has no properties at all.
 Below you will see how it works.</p>
-<pre><code class="hljs css languages- html"><span class="hljs-tag">&lt;<span class="hljs-name">Container</span>&gt;</span>
+<pre><code class="hljs css language-html"><span class="hljs-tag">&lt;<span class="hljs-name">Container</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">Row</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">Column</span> <span class="hljs-attr">size</span>=<span class="hljs-string">"3"</span>&gt;</span>Top<span class="hljs-tag">&lt;/<span class="hljs-name">Column</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">Break</span> /&gt;</span>

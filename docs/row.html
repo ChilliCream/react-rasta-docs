@@ -22,6 +22,10 @@
                 var toggler = document.querySelector(togglerSelector);
                 var target = document.querySelector(targetSelector);
 
+                if (!toggler) {
+                  return;
+                }
+
                 toggler.onclick = function(event) {
                   event.preventDefault();
 
@@ -33,7 +37,7 @@
 avoid appearance issues. A <code>Row</code> contains one or more <code>Column</code>s and will break to a new line if one
 or more <code>Column</code>s exceed in size. Below you will see a code example to get an idea of how it should
 look like.</p>
-<pre><code class="hljs css languages- html"><span class="hljs-tag">&lt;<span class="hljs-name">Container</span>&gt;</span>
+<pre><code class="hljs css language-html"><span class="hljs-tag">&lt;<span class="hljs-name">Container</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">Row</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">Column</span> /&gt;</span>
   <span class="hljs-tag">&lt;/<span class="hljs-name">Row</span>&gt;</span>
@@ -53,14 +57,14 @@ look like.</p>
 </ul></li>
 </ul>
 <p><strong>Single Value Example</strong></p>
-<pre><code class="hljs css languages- tsx"><span class="hljs-tag">&lt;<span class="hljs-name">Container</span>&gt;</span>
+<pre><code class="hljs css language-tsx"><span class="hljs-tag">&lt;<span class="hljs-name">Container</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">Row</span> <span class="hljs-attr">alignContent</span>=<span class="hljs-string">"flex-start"</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">Column</span> /&gt;</span>
   <span class="hljs-tag">&lt;/<span class="hljs-name">Row</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">Container</span>&gt;</span>
 </code></pre>
 <p><strong>Multi Value Example</strong></p>
-<pre><code class="hljs css languages- tsx"><span class="hljs-tag">&lt;<span class="hljs-name">Container</span>&gt;</span>
+<pre><code class="hljs css language-tsx"><span class="hljs-tag">&lt;<span class="hljs-name">Container</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">Row</span> <span class="hljs-attr">alignContent</span>=<span class="hljs-string">{{</span> <span class="hljs-attr">xs:</span> "<span class="hljs-attr">space-around</span>", <span class="hljs-attr">md:</span> "<span class="hljs-attr">stretch</span>" }}&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">Column</span> /&gt;</span>
   <span class="hljs-tag">&lt;/<span class="hljs-name">Row</span>&gt;</span>
@@ -79,14 +83,14 @@ look like.</p>
 </ul></li>
 </ul>
 <p><strong>Single Value Example</strong></p>
-<pre><code class="hljs css languages- tsx"><span class="hljs-tag">&lt;<span class="hljs-name">Container</span>&gt;</span>
+<pre><code class="hljs css language-tsx"><span class="hljs-tag">&lt;<span class="hljs-name">Container</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">Row</span> <span class="hljs-attr">alignItems</span>=<span class="hljs-string">"flex-start"</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">Column</span> /&gt;</span>
   <span class="hljs-tag">&lt;/<span class="hljs-name">Row</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">Container</span>&gt;</span>
 </code></pre>
 <p><strong>Multi Value Example</strong></p>
-<pre><code class="hljs css languages- tsx"><span class="hljs-tag">&lt;<span class="hljs-name">Container</span>&gt;</span>
+<pre><code class="hljs css language-tsx"><span class="hljs-tag">&lt;<span class="hljs-name">Container</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">Row</span> <span class="hljs-attr">alignItems</span>=<span class="hljs-string">{{</span> <span class="hljs-attr">xs:</span> "<span class="hljs-attr">baseline</span>", <span class="hljs-attr">lg:</span> "<span class="hljs-attr">stretch</span>" }}&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">Column</span> /&gt;</span>
   <span class="hljs-tag">&lt;/<span class="hljs-name">Row</span>&gt;</span>
@@ -104,14 +108,14 @@ look like.</p>
 </ul></li>
 </ul>
 <p><strong>Single Value Example</strong></p>
-<pre><code class="hljs css languages- tsx"><span class="hljs-tag">&lt;<span class="hljs-name">Container</span>&gt;</span>
+<pre><code class="hljs css language-tsx"><span class="hljs-tag">&lt;<span class="hljs-name">Container</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">Row</span> <span class="hljs-attr">direction</span>=<span class="hljs-string">"column-reverse"</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">Column</span> /&gt;</span>
   <span class="hljs-tag">&lt;/<span class="hljs-name">Row</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">Container</span>&gt;</span>
 </code></pre>
 <p><strong>Multi Value Example</strong></p>
-<pre><code class="hljs css languages- tsx"><span class="hljs-tag">&lt;<span class="hljs-name">Container</span>&gt;</span>
+<pre><code class="hljs css language-tsx"><span class="hljs-tag">&lt;<span class="hljs-name">Container</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">Row</span> <span class="hljs-attr">direction</span>=<span class="hljs-string">{{</span> <span class="hljs-attr">xs:</span> "<span class="hljs-attr">row</span>", <span class="hljs-attr">xl:</span> "<span class="hljs-attr">row-reverse</span>" }}&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">Column</span> /&gt;</span>
   <span class="hljs-tag">&lt;/<span class="hljs-name">Row</span>&gt;</span>
@@ -129,14 +133,14 @@ look like.</p>
 </ul></li>
 </ul>
 <p><strong>Single Value Example</strong></p>
-<pre><code class="hljs css languages- tsx"><span class="hljs-tag">&lt;<span class="hljs-name">Container</span>&gt;</span>
+<pre><code class="hljs css language-tsx"><span class="hljs-tag">&lt;<span class="hljs-name">Container</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">Row</span> <span class="hljs-attr">justifyContent</span>=<span class="hljs-string">"center"</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">Column</span> /&gt;</span>
   <span class="hljs-tag">&lt;/<span class="hljs-name">Row</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">Container</span>&gt;</span>
 </code></pre>
 <p><strong>Multi Value Example</strong></p>
-<pre><code class="hljs css languages- tsx"><span class="hljs-tag">&lt;<span class="hljs-name">Container</span>&gt;</span>
+<pre><code class="hljs css language-tsx"><span class="hljs-tag">&lt;<span class="hljs-name">Container</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">Row</span> <span class="hljs-attr">justifyContent</span>=<span class="hljs-string">{{</span> <span class="hljs-attr">sm:</span> "<span class="hljs-attr">flex-start</span>", <span class="hljs-attr">xl:</span> "<span class="hljs-attr">space-between</span>" }}&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">Column</span> /&gt;</span>
   <span class="hljs-tag">&lt;/<span class="hljs-name">Row</span>&gt;</span>
@@ -154,14 +158,14 @@ look like.</p>
 </ul></li>
 </ul>
 <p><strong>Single Value Example</strong></p>
-<pre><code class="hljs css languages- tsx"><span class="hljs-tag">&lt;<span class="hljs-name">Container</span>&gt;</span>
+<pre><code class="hljs css language-tsx"><span class="hljs-tag">&lt;<span class="hljs-name">Container</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">Row</span> <span class="hljs-attr">noGutter</span>=<span class="hljs-string">"true"</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">Column</span> /&gt;</span>
   <span class="hljs-tag">&lt;/<span class="hljs-name">Row</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">Container</span>&gt;</span>
 </code></pre>
 <p><strong>Multi Value Example</strong></p>
-<pre><code class="hljs css languages- tsx"><span class="hljs-tag">&lt;<span class="hljs-name">Container</span>&gt;</span>
+<pre><code class="hljs css language-tsx"><span class="hljs-tag">&lt;<span class="hljs-name">Container</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">Row</span> <span class="hljs-attr">noGutter</span>=<span class="hljs-string">{{</span> <span class="hljs-attr">sm:</span> <span class="hljs-attr">true</span>, <span class="hljs-attr">xl:</span> <span class="hljs-attr">false</span> }}&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">Column</span> /&gt;</span>
   <span class="hljs-tag">&lt;/<span class="hljs-name">Row</span>&gt;</span>
@@ -181,14 +185,14 @@ stacked.</p>
 </ul></li>
 </ul>
 <p><strong>Single Value Example</strong></p>
-<pre><code class="hljs css languages- tsx"><span class="hljs-tag">&lt;<span class="hljs-name">Container</span>&gt;</span>
+<pre><code class="hljs css language-tsx"><span class="hljs-tag">&lt;<span class="hljs-name">Container</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">Row</span> <span class="hljs-attr">wrap</span>=<span class="hljs-string">"wrap-reverse"</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">Column</span> /&gt;</span>
   <span class="hljs-tag">&lt;/<span class="hljs-name">Row</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">Container</span>&gt;</span>
 </code></pre>
 <p><strong>Multi Value Example</strong></p>
-<pre><code class="hljs css languages- tsx"><span class="hljs-tag">&lt;<span class="hljs-name">Container</span>&gt;</span>
+<pre><code class="hljs css language-tsx"><span class="hljs-tag">&lt;<span class="hljs-name">Container</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">Row</span> <span class="hljs-attr">wrap</span>=<span class="hljs-string">{{</span> <span class="hljs-attr">sm:</span> "<span class="hljs-attr">wrap</span>", <span class="hljs-attr">md:</span> "<span class="hljs-attr">nowrap</span>" }}&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">Column</span> /&gt;</span>
   <span class="hljs-tag">&lt;/<span class="hljs-name">Row</span>&gt;</span>
