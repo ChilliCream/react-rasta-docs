@@ -9,13 +9,25 @@
     <logo>http://react-rasta.com/img/signet.svg</logo>
     <rights>Copyright © 2018 ChilliCream</rights>
     <entry>
+        <title type="html"><![CDATA[Releasing version 1.0.4]]></title>
+        <id>http://react-rasta.com/blog/2018/08/29/1.0.4.html</id>
+        <link href="http://react-rasta.com/blog/2018/08/29/1.0.4.html">
+        </link>
+        <updated>2018-08-29T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p>With this release we added an additional precompiled version for <em>ES5</em>.</p>
+]]></summary>
+        <author>
+            <name>Rafael Staib</name>
+            <uri>https://github.com/rstaib</uri>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Releasing version 1.0.3]]></title>
         <id>http://react-rasta.com/blog/2018/08/29/1.0.3.html</id>
         <link href="http://react-rasta.com/blog/2018/08/29/1.0.3.html">
         </link>
         <updated>2018-08-29T06:00:00Z</updated>
-        <summary type="html"><![CDATA[<p>With this release we added an additional precompiled version for <em>ES5</em>.</p>
-]]></summary>
+        <summary type="html"><![CDATA[<p>This version is deprecated due to an deploy issue; use instead version 1.0.4.</p> ]]></summary>
         <author>
             <name>Rafael Staib</name>
             <uri>https://github.com/rstaib</uri>

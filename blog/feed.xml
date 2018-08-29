@@ -14,12 +14,19 @@
         </image>
         <copyright>Copyright © 2018 ChilliCream</copyright>
         <item>
+            <title><![CDATA[Releasing version 1.0.4]]></title>
+            <link>http://react-rasta.com/blog/2018/08/29/1.0.4.html</link>
+            <guid>http://react-rasta.com/blog/2018/08/29/1.0.4.html</guid>
+            <pubDate>Wed, 29 Aug 2018 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>With this release we added an additional precompiled version for <em>ES5</em>.</p>
+]]></description>
+        </item>
+        <item>
             <title><![CDATA[Releasing version 1.0.3]]></title>
             <link>http://react-rasta.com/blog/2018/08/29/1.0.3.html</link>
             <guid>http://react-rasta.com/blog/2018/08/29/1.0.3.html</guid>
             <pubDate>Wed, 29 Aug 2018 06:00:00 GMT</pubDate>
-            <description><![CDATA[<p>With this release we added an additional precompiled version for <em>ES5</em>.</p>
-]]></description>
+            <description><![CDATA[<p>This version is deprecated due to an deploy issue; use instead version 1.0.4.</p> ]]></description>
         </item>
         <item>
             <title><![CDATA[Releasing version 1.0.2]]></title>
