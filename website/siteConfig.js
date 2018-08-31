@@ -12,7 +12,7 @@ const repoUrl = "https://github.com/ChilliCream/react-rasta";
 const siteConfig = {
   title: "React Rasta",
   tagline: "The most powerful and flexible grid system for React",
-  url: "http://react-rasta.com",
+  url: "https://react-rasta.com",
   cname: "react-rasta.com",
   baseUrl: "/",
   gaTrackingId: "UA-72800164-2",
