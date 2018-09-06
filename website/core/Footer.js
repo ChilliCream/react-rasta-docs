@@ -46,6 +46,12 @@ class Footer extends React.Component {
           <div>
             <h5>Community</h5>
             <a
+              href={`https://twitter.com/${this.props.config.twitterUsername}`}
+              target="_blank"
+              rel="noreferrer noopener">
+              Follow us on Twitter
+            </a>
+            <a
               href="http://stackoverflow.com/questions/tagged/react-rasta"
               target="_blank"
               rel="noreferrer noopener"
@@ -55,7 +61,7 @@ class Footer extends React.Component {
           </div>
           <div>
             <h5>More</h5>
-            <a href={this.props.config.baseUrl + "blog"}>Blog</a>
+            <a href={this.props.config.blogUrl}>Blog</a>
             <a href={this.props.config.repoUrl}>GitHub</a>
             <a href={this.props.config.repoUrl + "/issues"}>Issues</a>
             <a

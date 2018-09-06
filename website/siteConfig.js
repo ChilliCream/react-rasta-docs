@@ -9,6 +9,7 @@
 
 const repoUrl = "https://github.com/ChilliCream/react-rasta";
 const organizationUrl = "https://chillicream.com";
+const blogUrl = organizationUrl + "/blog";
 
 const siteConfig = {
   title: "React Rasta",
@@ -16,12 +17,13 @@ const siteConfig = {
   url: "https://react-rasta.com",
   cname: "react-rasta.com",
   baseUrl: "/",
+  blogUrl,
+  repoUrl,
   gaTrackingId: "UA-72800164-2",
   projectName: "react-rasta-docs",
   organizationName: "chillicream",
   organizationTitle: "ChilliCream",
   organizationUrl,
-  repoUrl,
   headerLinks: [{
       doc: "installation",
       label: "Docs"
@@ -31,7 +33,7 @@ const siteConfig = {
       label: "Examples"
     },
     {
-      href: `${organizationUrl}/blog`,
+      href: blogUrl,
       label: "Blog"
     },
     //{ search: true },
@@ -59,6 +61,9 @@ const siteConfig = {
   },
   scripts: ["https://buttons.github.io/buttons.js"],
   onPageNav: "separate",
+  twitter: true,
+  twitterUsername: "Chilli_Cream",
+  twitterImage: "img/cupcake.png",
   cleanUrl: true
 };
 
