@@ -8,6 +8,7 @@
 // See https://docusaurus.io/docs/site-config.html for all the possible
 
 const repoUrl = "https://github.com/ChilliCream/react-rasta";
+const organizationUrl = "https://chillicream.com";
 
 const siteConfig = {
   title: "React Rasta",
@@ -18,13 +19,26 @@ const siteConfig = {
   gaTrackingId: "UA-72800164-2",
   projectName: "react-rasta-docs",
   organizationName: "chillicream",
+  organizationTitle: "ChilliCream",
+  organizationUrl,
   repoUrl,
-  headerLinks: [
-    { doc: "installation", label: "Docs" },
-    { doc: "example-break", label: "Examples" },
-    { blog: true, label: "Blog" },
-    { search: true },
-    { href: repoUrl, label: "GitHub" }
+  headerLinks: [{
+      doc: "installation",
+      label: "Docs"
+    },
+    {
+      doc: "example-break",
+      label: "Examples"
+    },
+    {
+      href: `${organizationUrl}/blog`,
+      label: "Blog"
+    },
+    //{ search: true },
+    {
+      href: repoUrl,
+      label: "GitHub"
+    }
   ],
   headerIcon: "img/signet.svg",
   footerIcon: "img/signet.svg",
@@ -33,18 +47,19 @@ const siteConfig = {
     primaryColor: "#29303a",
     secondaryColor: "#363f4c"
   },
-  copyright: "Copyright © " + new Date().getFullYear() + " ChilliCream",
+  copyright: `Copyright © ${new Date().getFullYear()}`,
   editUrl: "https://github.com/ChilliCream/react-rasta-docs/edit/master/docs/",
-  algolia: {
+  /*algolia: {
     apiKey: "bf33c17016c2932f4993e27c5d3aba72",
     indexName: "react-rasta"
-  },
+  },*/
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks
     theme: "androidstudio"
   },
   scripts: ["https://buttons.github.io/buttons.js"],
-  onPageNav: "separate"
+  onPageNav: "separate",
+  cleanUrl: true
 };
 
 module.exports = siteConfig;

@@ -22,3 +22,7 @@ body {
     flex-shrink: 0;
   }
 }
+
+.nav-footer .copyright a {
+  color: #d51616;
+}
