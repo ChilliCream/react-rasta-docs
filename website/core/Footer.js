@@ -71,7 +71,10 @@ class Footer extends React.Component {
             </a>
           </div>
         </section>
-        <section className="copyright">{this.props.config.copyright}</section>
+        <section className="copyright">
+          {this.props.config.copyright}&nbsp;
+          <a href={this.props.config.organizationUrl}>{this.props.config.organizationTitle}</a>
+        </section>
       </footer>
     );
   }
