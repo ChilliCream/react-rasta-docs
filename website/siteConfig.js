@@ -21,11 +21,13 @@ const siteConfig = {
   repoUrl,
   gaTrackingId: "UA-72800164-2",
   projectName: "react-rasta-docs",
+  realProjectName: "react-rasta",
   organizationName: "chillicream",
   organizationTitle: "ChilliCream",
   organizationUrl,
   headerLinks: [{
       doc: "installation",
+      href: "/docs",
       label: "Docs"
     },
     {
@@ -51,6 +53,9 @@ const siteConfig = {
     primaryColor: "#29303a",
     secondaryColor: "#363f4c"
   },
+  stylesheets: [
+    "/css/code-block-buttons.css"
+  ],
   copyright: `Copyright © ${new Date().getFullYear()}`,
   editUrl: "https://github.com/ChilliCream/react-rasta-docs/edit/master/docs/",
   /*algolia: {
@@ -61,12 +66,22 @@ const siteConfig = {
     // Highlight.js theme to use for syntax highlighting in code blocks
     theme: "androidstudio"
   },
-  scripts: ["https://buttons.github.io/buttons.js"],
+  scripts: [
+    "https://buttons.github.io/buttons.js",
+    "https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js",
+    "/js/code-block-buttons.js",
+  ],
   onPageNav: "separate",
   twitter: true,
   twitterUsername: "Chilli_Cream",
   twitterImage: "img/cupcake.png",
-  cleanUrl: true
+  cleanUrl: true,
+  scrollToTop: true,
+  scrollToTopOptions: {
+    zIndex: 100,
+  },
+  enableUpdateTime: true,
+  enableUpdateBy: true
 };
 
 module.exports = siteConfig;

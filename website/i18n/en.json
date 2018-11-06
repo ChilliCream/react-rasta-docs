@@ -4,24 +4,48 @@
     "next": "Next",
     "previous": "Previous",
     "tagline": "The most powerful and flexible grid system for React",
-    "break": "Break",
-    "column": "Column",
-    "container": "Container",
-    "dependencies": "Dependencies",
-    "example-break": "Break",
-    "example-column-auto": "Auto Sized Columns",
-    "installation": "Installation",
-    "row": "Row",
-    "theme-provider": "ThemeProvider",
-    "Docs": "Docs",
-    "Examples": "Examples",
-    "Blog": "Blog",
-    "GitHub": "GitHub",
-    "Usage": "Usage",
-    "Components": "Components",
-    "Types": "Types",
-    "Break": "Break",
-    "Column": "Column"
+    "docs": {
+      "break": {
+        "title": "Break"
+      },
+      "column": {
+        "title": "Column"
+      },
+      "container": {
+        "title": "Container"
+      },
+      "dependencies": {
+        "title": "Dependencies"
+      },
+      "example-break": {
+        "title": "Break"
+      },
+      "example-column-auto": {
+        "title": "Auto Sized Columns"
+      },
+      "installation": {
+        "title": "Installation"
+      },
+      "row": {
+        "title": "Row"
+      },
+      "theme-provider": {
+        "title": "ThemeProvider"
+      }
+    },
+    "links": {
+      "Docs": "Docs",
+      "Examples": "Examples",
+      "Blog": "Blog",
+      "GitHub": "GitHub"
+    },
+    "categories": {
+      "Usage": "Usage",
+      "Components": "Components",
+      "Types": "Types",
+      "Break": "Break",
+      "Column": "Column"
+    }
   },
   "pages-strings": {
     "Help Translate|recruit community translators for your project": "Help Translate",
