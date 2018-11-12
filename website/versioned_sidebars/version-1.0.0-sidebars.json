@@ -1,0 +1,24 @@
+{
+  "version-1.0.0-docs": {
+    "Usage": [
+      "version-1.0.0-installation",
+      "version-1.0.0-dependencies"
+    ],
+    "Components": [
+      "version-1.0.0-break",
+      "version-1.0.0-column",
+      "version-1.0.0-container",
+      "version-1.0.0-row",
+      "version-1.0.0-theme-provider"
+    ],
+    "Types": []
+  },
+  "version-1.0.0-examples": {
+    "Break": [
+      "version-1.0.0-example-break"
+    ],
+    "Column": [
+      "version-1.0.0-example-column-auto"
+    ]
+  }
+}

@@ -31,6 +31,33 @@
       },
       "theme-provider": {
         "title": "ThemeProvider"
+      },
+      "version-1.0.0-break": {
+        "title": "Break"
+      },
+      "version-1.0.0-column": {
+        "title": "Column"
+      },
+      "version-1.0.0-container": {
+        "title": "Container"
+      },
+      "version-1.0.0-dependencies": {
+        "title": "Dependencies"
+      },
+      "version-1.0.0-example-break": {
+        "title": "Break"
+      },
+      "version-1.0.0-example-column-auto": {
+        "title": "Auto Sized Columns"
+      },
+      "version-1.0.0-installation": {
+        "title": "Installation"
+      },
+      "version-1.0.0-row": {
+        "title": "Row"
+      },
+      "version-1.0.0-theme-provider": {
+        "title": "ThemeProvider"
       }
     },
     "links": {
