@@ -39,12 +39,12 @@ const siteConfig = {
       label: "Blog",
       external: true
     },
-    //{ search: true },
     {
       href: repoUrl,
       label: "GitHub",
       external: true
-    }
+    },
+    { search: true }
   ],
   headerIcon: "img/signet.svg",
   footerIcon: "img/signet.svg",
@@ -58,10 +58,13 @@ const siteConfig = {
   ],
   copyright: `Copyright © ${new Date().getFullYear()}`,
   editUrl: "https://github.com/ChilliCream/react-rasta-docs/edit/master/docs/",
-  /*algolia: {
-    apiKey: "bf33c17016c2932f4993e27c5d3aba72",
-    indexName: "react-rasta"
-  },*/
+  algolia: {
+    apiKey: "6fc15fee9edc8ccf2a4e53fee34c59a1",
+    indexName: "react-rasta",
+    algoliaOptions: {
+      facetFilters: ["language:$LANGUAGE", "version:$VERSION"],
+    },
+  },
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks
     theme: "androidstudio"
