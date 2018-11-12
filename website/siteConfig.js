@@ -62,7 +62,7 @@ const siteConfig = {
     apiKey: "6fc15fee9edc8ccf2a4e53fee34c59a1",
     indexName: "react-rasta",
     algoliaOptions: {
-      facetFilters: ["language:$LANGUAGE", "version:$VERSION"],
+      facetFilters: ["language:LANGUAGE", "version:VERSION"],
     },
   },
   highlight: {
