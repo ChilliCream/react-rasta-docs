@@ -9,6 +9,7 @@
 <url> <loc>https://react-rasta.com/docs/next/dependencies</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://react-rasta.com/docs/next/dependencies" /> </url>
 <url> <loc>https://react-rasta.com/docs/next/example-break</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://react-rasta.com/docs/next/example-break" /> </url>
 <url> <loc>https://react-rasta.com/docs/next/example-column-auto</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://react-rasta.com/docs/next/example-column-auto" /> </url>
+<url> <loc>https://react-rasta.com/docs/next/example-column-flex</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://react-rasta.com/docs/next/example-column-flex" /> </url>
 <url> <loc>https://react-rasta.com/docs/next/installation</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://react-rasta.com/docs/next/installation" /> </url>
 <url> <loc>https://react-rasta.com/docs/next/row</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://react-rasta.com/docs/next/row" /> </url>
 <url> <loc>https://react-rasta.com/docs/next/theme-provider</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://react-rasta.com/docs/next/theme-provider" /> </url>
@@ -18,6 +19,7 @@
 <url> <loc>https://react-rasta.com/docs/dependencies</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://react-rasta.com/docs/dependencies" /> </url>
 <url> <loc>https://react-rasta.com/docs/example-break</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://react-rasta.com/docs/example-break" /> </url>
 <url> <loc>https://react-rasta.com/docs/example-column-auto</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://react-rasta.com/docs/example-column-auto" /> </url>
+<url> <loc>https://react-rasta.com/docs/example-column-flex</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://react-rasta.com/docs/example-column-flex" /> </url>
 <url> <loc>https://react-rasta.com/docs/installation</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://react-rasta.com/docs/installation" /> </url>
 <url> <loc>https://react-rasta.com/docs/row</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://react-rasta.com/docs/row" /> </url>
 <url> <loc>https://react-rasta.com/docs/theme-provider</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://react-rasta.com/docs/theme-provider" /> </url>
