@@ -20,4 +20,4 @@ exceed in size.
 
 ## Preview
 
-<iframe src="https://codesandbox.io/embed/j22zqr1m95?hidenavigation=1&initialpath=%2Fbreak&view=preview" class="example" sandbox="allow-scripts allow-same-origin"></iframe>
+<iframe src="https://codesandbox.io/embed/6vr8k091zr?hidenavigation=1&initialpath=%2Fbreak&view=preview" class="example" sandbox="allow-scripts allow-same-origin"></iframe>

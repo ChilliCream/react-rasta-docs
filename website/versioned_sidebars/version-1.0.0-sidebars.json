@@ -18,7 +18,8 @@
       "version-1.0.0-example-break"
     ],
     "Column": [
-      "version-1.0.0-example-column-auto"
+      "version-1.0.0-example-column-auto",
+      "version-1.0.0-example-column-flex"
     ]
   }
 }
