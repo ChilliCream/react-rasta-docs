@@ -10,6 +10,7 @@
 const repoUrl = "https://github.com/ChilliCream/react-rasta";
 const organizationUrl = "https://chillicream.com";
 const blogUrl = organizationUrl + "/blog";
+const shopUrl = "https://shop.chillicream.com";
 
 const siteConfig = {
   title: "React Rasta",
@@ -19,6 +20,7 @@ const siteConfig = {
   baseUrl: "/",
   blogUrl,
   repoUrl,
+  shopUrl,
   gaTrackingId: "UA-72800164-2",
   projectName: "react-rasta-docs",
   realProjectName: "react-rasta",
@@ -37,6 +39,11 @@ const siteConfig = {
     {
       href: blogUrl,
       label: "Blog",
+      external: true
+    },
+    {
+      href: shopUrl,
+      label: "Shop",
       external: true
     },
     {
